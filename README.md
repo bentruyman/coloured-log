@@ -11,10 +11,6 @@ using `coloured`.
 
     npm install coloured-log
 
-You'll also need `coloured` and `log.js`.
-
-    npm install coloured log
-
 ## Examples
 
 Since `coloured-log` simply extends functionality provided by `log.js`, you

@@ -1,11 +1,15 @@
 {
 	"name": "coloured-log",
 	"description": "Combines \"coloured\" and \"log.js\" for super simple pretty logging.",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"author": "Ben Truyman <bentruyman@gmail.com>",
 	"repository": {
 		"type": "git",
 		"url": "http://github.com/bentruyman/coloured-log"
+	},
+	"dependencies": {
+		"coloured": ">= 0.2.0",
+		"log": ">= 1.1.1"
 	},
 	"keywords": ["coloured", "log", "logger"],
 	"main": "./lib/coloured-log",
