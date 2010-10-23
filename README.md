@@ -16,6 +16,24 @@ using `coloured`.
 Since `coloured-log` simply extends functionality provided by `log.js`, you
 can use it just as you would use `log.js` normally.
 
+The following code:
+
+    var Log = require('coloured-log')
+      , log = new Log(Log.DEBUG)
+    
+    log.emergency('Site just went down!');
+    log.alert('Cannot connect to datastore!');
+    log.critical('Request timeout');
+    log.error('Exception thrown by controller');
+    log.warning('Couldn\'t find the user\'s session');
+    log.notice('Viewname wasn\'t defined');
+    log.info('Connected to database');
+    log.debug('Hello World');
+
+...will output something like this:
+
+![Example Logging](http://v3n.us/26ea9600781141127ab9989bf5ff30ab.png)
+
 ## Special Thanks
 
 Thanks to
