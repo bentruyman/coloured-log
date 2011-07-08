@@ -1,7 +1,7 @@
 {
   "name": "coloured-log",
   "description": "Combines \"coloured\" and \"log.js\" for super simple pretty logging.",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "author": "Ben Truyman <bentruyman@gmail.com>",
   "repository": {
     "type": "git",
