@@ -1,3 +1,5 @@
+**THIS PROJECT IS NO LONGER UNDER ACTIVE DEVELOPMENT**
+
 # coloured-log
 
 This project combines two projects:
